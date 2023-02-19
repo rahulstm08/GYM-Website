@@ -1,0 +1,96 @@
+.body-container {
+    background-image: url('./Image/bodybuilder.jpg');
+    background-size: cover;
+    margin-top: -12px;
+    height: 100vh;
+    width: 100%;
+}
+body{
+    font-family: 'Gloock', serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 5px;
+}
+.left img{
+    width: 63px;
+    margin-left: 30px;
+}
+.left div{
+    font-size: 16px;
+}
+.mid{
+    display: block;
+    width:38% ;
+    margin: 12px auto ;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 14px;
+    
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 17px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 16px;
+}
+.navbar li a:hover{
+    color:red;
+    text-decoration: underline;            
+}
+.btn{
+    font-family: 'Gloock', serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: red;
+}
+.container{
+    border: 2px solid white;
+    margin: 106px 40px;
+    padding: 75px;
+    width: 20%;
+    border-radius: 28px;
+}
+.form-group input{
+    font-family: 'Gloock', serif;
+    text-align: center;
+    display: block;
+    width: 92%;
+    padding: 12px;
+    border: 2px solid black;
+    margin: 7px auto;
+    font-size: 19px;
+    border-radius: 10px;
+}
+.container h4{
+    text-align: center;
+}
+.container button{
+    display: block;
+    margin: auto;
+}
+
+#about {
+    color: #000;
+}
